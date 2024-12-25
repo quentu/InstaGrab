@@ -1,0 +1,4 @@
+node.js
+npm install
+npm install -g ngrok
+npm install express body-parser prompt-sync
