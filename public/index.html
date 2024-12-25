@@ -2,14 +2,13 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Instagram-Style Mockup</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Login Page</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-
   <div class="container">
-    <!-- Left mock phone content -->
+    <!-- Left: Phone Mockup -->
     <div class="phone-section">
       <div class="phone-frame">
         <img 
@@ -20,12 +19,12 @@
       </div>
     </div>
 
-    <!-- Right login content -->
+    <!-- Right: Login Form -->
     <div class="login-section">
       <div class="login-box">
-        <h1 class="logo">Instagoob</h1>
-
-        <!-- Updated form: POST /login -->
+        <h1 class="logo">
+          <img src="./assets/instagram-text-logo.svg" class="logo-image"/>
+        </h1>
         <form action="/login" method="POST">
           <input 
             type="text" 
@@ -39,23 +38,16 @@
             placeholder="Password" 
             required
           />
-          <button 
-            type="submit" 
-            class="btn"
-          >
-            Log In
-          </button>
+          <button type="submit" class="btn">Log In</button>
         </form>
 
         <div class="divider">
           <hr /><span>OR</span><hr />
         </div>
-
-        <div class="social-login">
+        <div class="additional-options">
           <button class="btn facebook-btn">Log in with Facebook</button>
+          <a href="#" class="forgot-password">Forgot password?</a>
         </div>
-
-        <a href="#" class="forgot-password">Forgot password?</a>
       </div>
 
       <div class="signup-box">
@@ -66,17 +58,16 @@
         <p>Get the app.</p>
         <div class="app-buttons">
           <img 
-            src="https://via.placeholder.com/150x50?text=App+Store" 
-            alt="App Store" 
+            src=".\assets\gplay.png" 
+            alt="gplay" 
           />
           <img 
-            src="https://via.placeholder.com/150x50?text=Microsoft+Store" 
-            alt="Microsoft Store" 
+            src=".\assets\msoft.png" 
+            alt="msoft" 
           />
         </div>
       </div>
     </div>
   </div>
-
 </body>
 </html>

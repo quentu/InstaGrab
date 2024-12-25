@@ -8,7 +8,7 @@
   
   /* Body Styling */
   body {
-    background-color: #fafafa;
+    background-color: #000000;
   }
   
   /* Main Container */
@@ -57,17 +57,18 @@
   /* Login Box */
   .login-box {
     width: 100%;
-    background-color: #fff;
-    border: 1px solid #dbdbdb;
+    background-color: #000000;
+    border: 1px solid #555555;
     padding: 30px;
     margin-bottom: 20px;
     text-align: center;
   }
   
-  .logo {
-    font-family: 'Cookie', cursive;
-    font-size: 50px;
-    margin-bottom: 20px;
+  .logo-image {
+    width: 250px; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+    margin-top: -40px;
+    margin-bottom: -30px;
   }
   
   .login-box form {
@@ -78,8 +79,8 @@
   .login-box form input {
     margin: 5px 0;
     padding: 10px;
-    border: 1px solid #dbdbdb;
-    background: #fafafa;
+    border: 1px solid #555555;
+    background: #121212;
     outline: none;
   }
   
@@ -94,22 +95,39 @@
     border-radius: 4px;
   }
   
+  .additional-options {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px; 
+  }
+  
   .btn.facebook-btn {
-    background-color: #385185;
+    background-color: #000000;
+    color:#0095f6;
     margin-top: 20px;
+  }
+
+  .forgot-password {
+    display: inline-block;
+    margin-top: 10px;
+    color: #ffffff;
+    font-size: 12px;
+    text-decoration: none;
   }
   
   .divider {
     display: flex;
     align-items: center;
-    color: #8e8e8e;
+    color: #555555;
+    font-size: small;
     margin: 15px 0;
   }
   
   .divider hr {
     flex: 1;
     border: none;
-    border-top: 1px solid #dbdbdb;
+    border-top: 2px solid #131313;
   }
   
   .divider span {
@@ -117,18 +135,12 @@
     font-weight: 600;
   }
   
-  .forgot-password {
-    display: inline-block;
-    margin-top: 10px;
-    color: #00376b;
-    font-size: 12px;
-    text-decoration: none;
-  }
+  
   
   /* Signup Box */
   .signup-box {
-    background-color: #fff;
-    border: 1px solid #dbdbdb;
+    background-color: #000000;
+    border: 1px solid #555555;
     width: 100%;
     text-align: center;
     padding: 20px;
@@ -136,6 +148,7 @@
   
   .signup-box p {
     font-size: 14px;
+    color: #fff
   }
   
   .signup-box a {
@@ -159,6 +172,12 @@
   .app-buttons img {
     margin: 0 5px;
     width: 120px;
+    height: auto;
+    cursor: pointer;
+  }
+  .app-buttons img[alt="gplay"] {
+    margin: 0 5px;
+    width: 145px;
     height: auto;
     cursor: pointer;
   }
