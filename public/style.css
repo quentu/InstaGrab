@@ -1,0 +1,165 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Body Styling */
+  body {
+    background-color: #fafafa;
+  }
+  
+  /* Main Container */
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px auto;
+    max-width: 900px;
+  }
+  
+  /* Phone Section (Left Side) */
+  .phone-section {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .phone-frame {
+    width: 300px;
+    height: 600px;
+    background-color: black;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .phone-screen {
+    width: 80%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  /* Login Section (Right Side) */
+  .login-section {
+    flex: 1;
+    max-width: 350px;
+    margin-left: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Login Box */
+  .login-box {
+    width: 100%;
+    background-color: #fff;
+    border: 1px solid #dbdbdb;
+    padding: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .logo {
+    font-family: 'Cookie', cursive;
+    font-size: 50px;
+    margin-bottom: 20px;
+  }
+  
+  .login-box form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .login-box form input {
+    margin: 5px 0;
+    padding: 10px;
+    border: 1px solid #dbdbdb;
+    background: #fafafa;
+    outline: none;
+  }
+  
+  .btn {
+    margin-top: 10px;
+    background-color: #0095f6;
+    color: #fff;
+    border: none;
+    padding: 8px 0;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .btn.facebook-btn {
+    background-color: #385185;
+    margin-top: 20px;
+  }
+  
+  .divider {
+    display: flex;
+    align-items: center;
+    color: #8e8e8e;
+    margin: 15px 0;
+  }
+  
+  .divider hr {
+    flex: 1;
+    border: none;
+    border-top: 1px solid #dbdbdb;
+  }
+  
+  .divider span {
+    margin: 0 10px;
+    font-weight: 600;
+  }
+  
+  .forgot-password {
+    display: inline-block;
+    margin-top: 10px;
+    color: #00376b;
+    font-size: 12px;
+    text-decoration: none;
+  }
+  
+  /* Signup Box */
+  .signup-box {
+    background-color: #fff;
+    border: 1px solid #dbdbdb;
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .signup-box p {
+    font-size: 14px;
+  }
+  
+  .signup-box a {
+    color: #0095f6;
+    text-decoration: none;
+    font-weight: 600;
+  }
+  
+  /* Get the App Section */
+  .get-app {
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .get-app p {
+    margin-bottom: 10px;
+    font-size: 14px;
+  }
+  
+  .app-buttons img {
+    margin: 0 5px;
+    width: 120px;
+    height: auto;
+    cursor: pointer;
+  }
+  
